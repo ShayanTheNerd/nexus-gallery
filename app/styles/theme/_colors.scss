@@ -1,0 +1,40 @@
+/*** Primitives ***/
+$primitive-green-50: hsl(165, 20%, 97%);
+$primitive-green-700: hsl(171, 40%, 34%);
+$primitive-green-900: hsl(171, 46%, 24%);
+
+$primitive-coral-100: hsl(18, 76%, 94%);
+$primitive-coral-600: hsl(15, 72%, 48%);
+
+$primitive-neutral-100: hsl(170, 18%, 97%);
+$primitive-neutral-300: hsl(168, 11%, 80%);
+$primitive-neutral-700: hsl(172, 9%, 34%);
+$primitive-neutral-950: hsl(175, 14%, 12%);
+
+$primitive-white: hsl(0, 0%, 100%);
+
+/*** Semantics ***/
+/* Surfaces */
+$color-page: $primitive-neutral-100;
+$color-surface: $primitive-white;
+$color-image-bg: $primitive-green-50;
+
+/* Texts */
+$color-text: $primitive-neutral-950;
+$color-text-muted: $primitive-neutral-700;
+
+/* Lines */
+$color-line: $primitive-neutral-300;
+
+/* Scrollbars */
+$color-scrollbar-thumb: $primitive-green-700;
+$color-scrollbar-track: $primitive-neutral-100;
+
+/* Brand */
+$color-brand: $primitive-green-900;
+$color-brand-hover: $primitive-green-700;
+$color-accent: $primitive-coral-600;
+$color-accent-soft: $primitive-coral-100;
+
+/* Status */
+$color-success: $primitive-green-700;

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "antd": {
+      "source": "ant-design/ant-design-cli",
+      "sourceType": "github",
+      "skillPath": "skills/antd/SKILL.md",
+      "computedHash": "5a3feb6a3530550e759edacf9e89dfc1f05a3b39c5125afeae5dad829dad66b6"
+    }
+  }
+}

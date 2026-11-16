@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+netlify
+
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+# Operating system and development environment
+**/.idea
+**/.fleet
+**/.history
+**/.DS_Store

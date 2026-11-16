@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": ["app"],
+  "compilerOptions": {
+    /* Modules */
+    "moduleResolution": "bundler",
+    "paths": {
+      "~/*": ["./app/*"]
+    },
+    "types": ["vite/client"],
+
+    /* Language and Environment */
+    "jsx": "react-jsx",
+    "lib": ["ES2024", "DOM"],
+    "target": "es2024",
+
+    /* Projects */
+    "tsBuildInfoFile": "./node_modules/.cache/tsconfig.app.tsbuildinfo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": ["eslint.config.ts", "prettier.config.ts", "vite.config.ts"],
+  "compilerOptions": {
+    "module": "nodenext",
+    "types": ["node"],
+
+    /* Language and Environment */
+    "target": "esnext",
+
+    /* Projects */
+    "tsBuildInfoFile": "node_modules/.cache/tsconfig.node.tsbuildinfo"
+  }
+}

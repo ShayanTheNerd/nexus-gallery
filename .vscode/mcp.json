@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "Ant Design": {
+      "command": "pnpx",
+      "args": ["-y", "@ant-design/cli", "mcp"]
+    },
+    "ESLint": {
+      "type": "stdio",
+      "command": "pnpx",
+      "args": ["@eslint/mcp@latest"]
+    }
+  }
+}

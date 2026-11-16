@@ -1,0 +1,14 @@
+autoDedupe: true
+engineStrict: true
+minimumReleaseAge: 100
+saveExact: true
+saveTypes: true
+shellEmulator: true
+
+update:
+  githubActions: true
+
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  simple-git-hooks: true

@@ -1,0 +1,81 @@
+{
+  "name": "nexus-gallery",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayanTheNerd/nexus-gallery.git"
+  },
+  "author": {
+    "name": "Shayan Zamani",
+    "email": "dev.shayan.zamani@gmail.com",
+    "url": "https://github.com/ShayanTheNerd"
+  },
+  "type": "module",
+  "scripts": {
+    "postinstall": "pnpm git:gitmessage && simple-git-hooks",
+    "git:gitmessage": "git config --local commit.template '.gitmessage'",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write '**/*.{svg,scss,json,yaml}' '!pnpm-lock.yaml' --cache",
+    "lint": "eslint --fix --max-warnings=0 --cache --cache-location=./node_modules/.cache/.eslintcache",
+    "lint:inspect": "eslint-config-inspector",
+    "check:types": "tsc --build",
+    "ci:validate": "pnpm format && pnpm lint && pnpm check:types && pnpm build"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "./node_modules/.bin/nano-staged"
+  },
+  "nano-staged": {
+    "**/*.{svg,scss,json}": "pnpm format",
+    "**/*.{ts,tsx}": "pnpm lint",
+    "package.json": "pnpm lint",
+    "{.github/workflows/**/*.yaml,pnpm-workspace.yaml}": "pnpm format"
+  },
+  "dependencies": {
+    "@ant-design/icons": "6.3.4",
+    "@tanstack/react-query": "5.107.1",
+    "@tanstack/react-router": "1.170.46",
+    "@tanstack/router-plugin": "1.169.0",
+    "antd": "6.7.1",
+    "axios": "1.21.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7",
+    "zustand": "5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/config-inspector": "3.5.0",
+    "@shayanthenerd/eslint-config": "0.38.0",
+    "@tanstack/devtools-vite": "0.8.6",
+    "@tanstack/react-devtools": "0.10.14",
+    "@tanstack/react-query-devtools": "5.107.1",
+    "@tanstack/react-router-devtools": "1.167.3",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "eslint": "10.15.0",
+    "nano-staged": "1.0.2",
+    "prettier": "3.10.1",
+    "sass": "1.108.2",
+    "simple-git-hooks": "2.14.0",
+    "typescript": "6.0.3",
+    "vite": "8.3.8"
+  },
+  "engines": {
+    "node": "^24.22.3 || ^26.13.1"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.21.0",
+      "onFail": "warn"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "26.13.1",
+      "onFail": "warn"
+    }
+  }
+}

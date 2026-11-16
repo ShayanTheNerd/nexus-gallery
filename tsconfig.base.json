@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* Type Checking */
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* Modules */
+    "allowArbitraryExtensions": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+
+    /* Emit */
+    "noEmit": true,
+
+    /* JavaScript Support */
+    "allowJs": true,
+    "checkJs": true,
+
+    /* Interop Constraints */
+    "erasableSyntaxOnly": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+
+    /* Language and Environment */
+    "moduleDetection": "force",
+
+    /* Projects */
+    "incremental": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  }
+}

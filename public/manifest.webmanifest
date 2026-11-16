@@ -1,0 +1,33 @@
+{
+  "name": "گالری نکسوس",
+  "short_name": "گالری نکسوس",
+  "description": "گالری محصولات نکسوس؛ مجموعه‌ای از محصولات منتخب با معرفی کامل، تصاویر باکیفیت و تجربه‌ای ساده و سریع برای مشاهده و بررسی.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "hsl(171, 46%, 24%)",
+  "background_color": "hsl(170, 18%, 97%)",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "type": "image/png",
+      "src": "./favicons/192x192.png"
+    },
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "src": "./favicons/512x512.png"
+    },
+    {
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable",
+      "src": "./favicons/192x192-maskable.png"
+    },
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable",
+      "src": "./favicons/512x512-maskable.png"
+    }
+  ]
+}

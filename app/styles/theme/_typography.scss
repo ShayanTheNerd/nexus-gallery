@@ -1,0 +1,47 @@
+$font-vazirmatn: 'Vazirmatn', 'Vazirmatn Fallback: Arial', Tahoma, sans-serif;
+$font-size-xs: 0.75rem; /* 12px */
+$font-size-sm: 0.875rem; /* 14px */
+$font-size-md: 1rem; /* 16px */
+$font-size-lg: 1.25rem; /* 20px */
+$font-size-xl: 1.75rem; /* 28px */
+$font-size-display: 2.5rem; /* 40px */
+$line-height-body: 1.8;
+
+@font-face {
+  font-family: 'Vazirmatn Fallback: Arial';
+  size-adjust: 98%;
+  ascent-override: 93%;
+  descent-override: 37%;
+  line-gap-override: 3%;
+  src: local(Arial);
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local('Vazirmatn Regular'),
+    local('Vazirmatn-Regular'),
+    url('/fonts/vazirmatn-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local('Vazirmatn Bold'),
+    local('Vazirmatn-Bold'),
+    url('/fonts/vazirmatn-bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  font-weight: 900;
+  font-display: swap;
+  src:
+    local('Vazirmatn Black'),
+    local('Vazirmatn-Black'),
+    url('/fonts/vazirmatn-black.woff2') format('woff2');
+}
