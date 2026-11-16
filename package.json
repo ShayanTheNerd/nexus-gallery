@@ -28,7 +28,7 @@
   },
   "nano-staged": {
     "**/*.{svg,scss,json}": "pnpm format",
-    "**/*.{ts,tsx}": "pnpm lint",
+    "**/*.{ts,tsx}": "pnpm lint --no-warn-ignored",
     "package.json": "pnpm lint",
     "{.github/workflows/**/*.yaml,pnpm-workspace.yaml}": "pnpm format"
   },
