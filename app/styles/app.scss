@@ -23,7 +23,7 @@
   gap: $spacing-lg;
   padding: $spacing-sm max($spacing-lg, calc((100vw - 1440px) / 2));
   border-block-end: 1px solid $color-line;
-  background: hsl(0, 0%, 100%, 0.94);
+  background-color: hsl(0, 0%, 100%);
   backdrop-filter: blur(16px);
 
   &__brand {
