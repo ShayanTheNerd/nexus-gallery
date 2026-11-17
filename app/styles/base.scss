@@ -27,6 +27,7 @@
   }
 
   html {
+    scrollbar-gutter: stable;
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: $color-scrollbar-thumb $color-scrollbar-track;
