@@ -7,12 +7,5 @@ export default defineConfig({
       baseline: 'newly',
     },
     html: true,
-    node: {
-      overrides: {
-        rules: {
-          'n/file-extension-in-import': 'off',
-        },
-      },
-    },
   },
 });

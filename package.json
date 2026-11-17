@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@eslint/config-inspector": "3.5.0",
-    "@shayanthenerd/eslint-config": "0.38.0",
+    "@shayanthenerd/eslint-config": "0.38.1",
     "@tanstack/devtools-vite": "0.8.6",
     "@tanstack/react-devtools": "0.10.14",
     "@tanstack/react-query-devtools": "5.107.1",
