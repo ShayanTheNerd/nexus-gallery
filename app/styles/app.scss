@@ -180,7 +180,7 @@
 }
 
 .product-skeleton {
-  min-height: 430px;
+  min-height: 26rem;
   padding: $spacing-md;
   border: 1px solid $color-line;
   border-radius: $radius-lg;
@@ -202,6 +202,8 @@
 }
 
 .product-card {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 26rem;
   display: flex;
   flex-direction: column;
   gap: $spacing-sm;
